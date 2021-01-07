@@ -1,4 +1,4 @@
 #!/bin/bash
 set -ex
 
-brew -v
+docker run -i loadimpact/k6 run - <loadtests/performance-test.js
